@@ -106,6 +106,9 @@ a:hover{
 .vacancy a{
     color: black;
 }
+.vacancy:hover{
+    background-color: #FF575E;
+}
 .slots{
     background-color: #FFE2E4;
     border-radius: 10px;
