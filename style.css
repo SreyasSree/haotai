@@ -107,7 +107,7 @@ h2{
 .vacancy{
     grid-column: span 2;
     border: 1px solid #FFE2E4;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
     margin: 30px;
     border-radius: 10px;
@@ -121,6 +121,12 @@ h2{
 .vacancy p{
     margin: 8px;
     height: 90px;
+}
+.vacancy a{
+    color: black;
+}
+.vacancy a:hover{
+    
 }
 .slots{
     background-color: #FFE2E4;
@@ -262,7 +268,6 @@ h2{
     }
     ul {
         list-style-image: url('./images/check_icon.png');
-        
     }
     .more{
         background-color: #FF575E;
@@ -272,5 +277,11 @@ h2{
     }
     .vacancy p{
         height: 120px;
+    }
+    .slots{
+        margin-left: 10px;
+    }
+    .vacancy h3{
+        padding-left: 8px;
     }
 }

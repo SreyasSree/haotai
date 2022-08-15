@@ -88,7 +88,7 @@ a:hover{
 .vacancy{
     grid-column: span 2;
     border: 1px solid #FFE2E4;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
     margin: 30px;
     border-radius: 10px;
@@ -102,6 +102,9 @@ a:hover{
 .vacancy p{
     margin: 8px;
     height: 90px;
+}
+.vacancy a{
+    color: black;
 }
 .slots{
     background-color: #FFE2E4;
@@ -162,5 +165,11 @@ a:hover{
     }
     .vacancy p{
         height: 120px;
+    }
+    .slots{
+        margin-left: 10px;
+    }
+    .vacancy b{
+        padding-left: 8px;
     }
 }
