@@ -130,6 +130,9 @@ a:hover{
 .exp h4{
     color: #FF575E;
 }
+.exp li{
+    margin-left: 14px;
+}
 .cv{
     background-color: #FF575E;
     border-radius: 15px;
