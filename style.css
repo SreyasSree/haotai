@@ -125,8 +125,9 @@ h2{
 .vacancy a{
     color: black;
 }
-.vacancy:hover{
+.vacancy:hover, .vacancy a:hover{
     background-color: #FF575E;
+    color: white;
 }
 .slots{
     background-color: #FFE2E4;
@@ -134,7 +135,7 @@ h2{
     padding: 2px;
     margin: 10px auto;
     width: fit-content;
-    
+    color: #FF575E;
 }
 .slots a{
     color: #FF575E;

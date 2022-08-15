@@ -106,8 +106,9 @@ a:hover{
 .vacancy a{
     color: black;
 }
-.vacancy:hover{
+.vacancy:hover, .vacancy a:hover{
     background-color: #FF575E;
+    color: white;
 }
 .slots{
     background-color: #FFE2E4;
@@ -115,9 +116,6 @@ a:hover{
     padding: 2px;
     margin: 10px auto;
     width: fit-content;
-    
-}
-.slots a{
     color: #FF575E;
 }
 .work h2{
