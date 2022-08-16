@@ -155,8 +155,10 @@ a:hover{
     }
     .vacancy{
         grid-column: span 6;
-        display: flex;
         text-align: left;
+    }
+    .vacancy a{
+        display: flex;
     }
     .vanish{
         display: none;

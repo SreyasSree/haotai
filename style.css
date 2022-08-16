@@ -107,11 +107,11 @@ h2{
 .vacancy{
     grid-column: span 2;
     border: 1px solid #FFE2E4;
-    padding: 20px;
     text-align: center;
     margin: 30px;
     border-radius: 10px;
     column-gap: 10px;
+    padding: 20px;
 }
 .vacancy img{
     background-color: #FFE2E4;
@@ -132,7 +132,7 @@ h2{
 .slots{
     background-color: #FFE2E4;
     border-radius: 10px;
-    padding: 2px;
+    padding: 4px;
     margin: 10px auto;
     width: fit-content;
     color: #FF575E;
@@ -242,8 +242,13 @@ h2{
 @media only screen and (max-width:550px){
     .vacancy{
         grid-column: span 6;
-        display: flex;
         text-align: left;
+    }
+    .vacancy a{
+        display: flex;
+    }
+    #more{
+        padding: 5px;
     }
     .travel{
         grid-column: span 6;
