@@ -99,6 +99,13 @@ a:hover{
     padding: 5px;
     
 }
+.read a:hover{
+    color: #FF575E;
+}
+.read:hover{
+    background-color: black;
+    border: 2px solid #FF575E;
+}
 h2{
     text-align: center;
 }
@@ -212,6 +219,11 @@ h2{
 .media{
     justify-self: self-end;
     grid-column: span 1;
+    display: flex;
+    gap: 100px;
+}
+#call{
+    color: white;
 }
 .links{
     grid-column: span 1;

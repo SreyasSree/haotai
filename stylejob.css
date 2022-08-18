@@ -72,6 +72,11 @@ a:hover{
 .media{
     justify-self: self-end;
     grid-column: span 1;
+    display: flex;
+    gap: 100px;
+}
+#call{
+    color: white;
 }
 .icons{
     display: flex;
