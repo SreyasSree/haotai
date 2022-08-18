@@ -226,9 +226,13 @@ a:hover{
 }
 .mediaicon{
     padding: 10px;
+    display: flex;
 }
 .mediaicon a{
-    margin: 15px;
+    margin: auto;
+}
+.mediaicon img{
+    filter: contrast(0%);
 }
 #navbar{
     background-color: rgba(255, 255, 255, 0.842);
