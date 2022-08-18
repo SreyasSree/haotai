@@ -17,6 +17,9 @@ a{
 a:hover{
     color: #FF575E;
 }
+.active a{
+    color: #FF575E;
+}
 .head{
     display: flex;
     padding: 30px 30px 30px 50px;
