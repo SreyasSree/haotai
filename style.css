@@ -326,14 +326,15 @@ h2{
 }
 .follow{
     text-align: center;
-    padding: 40px;
+    padding-top: 40px;
     color: #FFAEB2;
 }
 .mediaicon{
     padding: 10px;
+    display: flex;
 }
 .mediaicon a{
-    margin: 15px;
+    margin: auto;
 }
 .mediaicon img{
     filter: invert();
