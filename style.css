@@ -309,6 +309,7 @@ h2{
 .menubar{
     padding: 50px;
     padding-left: 0;
+    padding-right: 100px;
 }
 .menuclick{
     display: grid;
